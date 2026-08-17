@@ -1,0 +1,18 @@
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+tensorflow>=2.10  # required if you want to train the Conv1D+LSTM model locally
+mne  # optional - for EDF loading
+numpy
+pandas
+scipy
+scikit-learn
+tensorflow
+matplotlib
+plotly
+joblib
+mne
+kaleido
+streamlit

@@ -1,0 +1,42 @@
+   # Python virtual environments
+venv/
+.venv/
+env/
+Lib/
+Scripts/
+Include/
+
+# Any virtual environment named eeg
+**/eeg/Lib/
+**/eeg/Scripts/
+**/eeg/Include/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Environment/secrets
+.env
+
+# TensorFlow / trained models
+*.keras
+*.h5
+*.npy
+*.npz
+
+# Generated output
+output/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+ 
+
+eeg/

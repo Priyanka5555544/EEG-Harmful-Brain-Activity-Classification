@@ -1,0 +1,33 @@
+
+1. environment Setup
+python -m venv eeg
+2. Check python Version
+python –version
+3. sutup
+.\eeg\Scripts\Activate.ps1
+
+#How to run everything in order (step-by-step)
+#Move to scripts folder to run 
+cd backend
+cd scripts
+1. Generate dataset
+
+python scripts/generate_dataset.py
+
+2. Train models (produces models in output/):
+
+python scripts/train_models.py
+
+3. Test models
+
+4. Visualize one sample:
+
+python visualize_eeg.py
+
+5. Evaluate performance:
+
+python evaluate_models.py
+
+6. Start the dashboard:
+
+streamlit run app.py
